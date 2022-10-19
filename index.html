@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awersome CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--👉 Tailwind cdn link-->
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <!--CSS link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <title>Pokemon🗼 </title>
+    <!--<i class="fa-regular fa-heart"></i>
+    <i class="fa-solid fa-heart"></i>-->
+</head>
+<body>
+    <header class="fixed top-0 py-4 w-full bg-yellow-500">
+        <nav class="">
+            <button id="siteTheme" class="ftext-2xl bg-yellow-500 font-semibold">Theme</button>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="mx-auto">
+            <img class="mx-auto mt-24" src="images/pokemon_logo 1.png">
+            
+            <section id="showModal" class="theme fixed top-14 left-4 bg-white w-80 h-96 p-5 shadow-2xl rounded-2xl">
+                <p>Colors</p>
+                <div class="flex gap-2">
+                    <div id="themeYellow" class="w-10 h-10 rounded-3xl bg-yellow-200 cursor-pointer"></div>
+                    <div id="themeBlack" class="w-10 h-10 rounded-3xl bg-black cursor-pointer"></div>     
+                </div>
+                
+                <p>Gradient color</p>
+                <div class="flex gap-2">
+                    <div id="themePink" class="w-10 h-10 rounded-3xl bg-pink-400 cursor-pointer"></div>
+                    <div id="themeBlue" class="w-10 h-10 rounded-3xl bg-blue-400 cursor-pointer"></div>
+                </div>
+                <p>Ogohlantirish! Rangni tanganingizdan so'ng ,uni boshqa rangga o'zgartirishdan oldin , tanlangan rangingizni o'chirish uchun uni yana bir marta bosishni unutmang </p>
+            </section>
+
+            <ul class="grid gap-5 my-20 mx-12  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
+                
+            </ul>
+        </div>
+    </main>
+    
+    <script src="js/pokemons.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
